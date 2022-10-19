@@ -5,6 +5,14 @@
 }
 
 body {
+    font-family: "Fira Code";
+}
+
+body, h1, h2, h3 {
     margin: 0;
-    text-decoration: none;
+}
+
+button {
+    border: none;
+    font-family: inherit;
 }
