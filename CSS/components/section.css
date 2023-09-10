@@ -1,4 +1,4 @@
-.section.-skills {
+.section {
     background-color: #F25A70;
     padding-top: 50px;
     padding-bottom: 100px;
@@ -9,9 +9,10 @@
     margin-bottom: 60px;
 }
 
-.section.-projetos {
+.section.-bgBlack {
     background-color: #000;
-    padding-top: 50px;
-    padding-bottom: 100px;
-    border-bottom: 10px solid #F25A70;
+}
+
+.section.-bdColor {
+    border-color: #F25A70;
 }
