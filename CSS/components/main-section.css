@@ -5,6 +5,10 @@
     border-bottom: 10px solid #7C5E99;
 }
 
+.main-section.-third {
+    padding-bottom: 0px;
+}
+
 .main-section .main-title {
     margin-bottom: 60px;
 }
@@ -15,4 +19,8 @@
 
 .main-section.-bdColor {
     border-color: #F25A70;
+}
+
+.main-section.-bgBlue {
+    background-color: #7C5E99;
 }
