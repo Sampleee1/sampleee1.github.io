@@ -7,7 +7,7 @@ body {
     font-family: "Fira Code";
 }
 
-body, h1, h2, h3, figure {
+body, h1, h2, h3, figure, {
     margin: 0;
 }
 
