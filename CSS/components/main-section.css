@@ -21,6 +21,10 @@
     border-color: #F25A70;
 }
 
+.main-section.-bdBlack {
+    border-color: black;
+}
+
 .main-section.-bgBlue {
     background-color: #7C5E99;
 }

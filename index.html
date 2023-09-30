@@ -25,6 +25,9 @@
     <link rel="stylesheet" href="CSS/components/card-project.css">
     <link rel="stylesheet" href="CSS/components/wrapper-card.css">
     <link rel="stylesheet" href="CSS/components/main-biography.css">
+    <link rel="stylesheet" href="CSS/components/button-arrow.css">
+    <link rel="stylesheet" href="CSS/components/node-card.css">
+    <link rel="stylesheet" href="CSS/components/main-carrossel.css">
 </head>
 <body>   
     <header class="main-header">
@@ -146,8 +149,61 @@
         </div>
     </section>
 
-    <section class="main-section -third -bgBlue -bdColor">
+    <section class="main-section -third -bgBlue -bdBlack">
+
         <h2 class="main-title -second">Sobre</h2>
+
+        <section class="main-carrossel">
+            <button class="button-arrow -left"><span class="content">esquerda</span></button>
+        
+            <div class="items">
+                <div class="elements">
+                    <figure class="node-card">
+                        <figcaption class="title">2012</figcaption>
+                        <div class="logo">
+                            <img src="Assets/img/logo-locaweb.png" alt="logo da local web">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2014</figcaption>
+                        <div class="logo">
+                            <img src="Assets/img/logo-caelum.png" alt="logo da Caelum">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -first">
+                        <figcaption class="title">2016</figcaption>
+                        <div class="logo">
+                            <img src="Assets/img/logo-getninjas.png" alt="logo da Get-ninjas">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2017</figcaption>
+                        <div class="logo">
+                            <img src="Assets/img/logo-caelum.png" alt="logo da Caelum">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card">
+                        <figcaption class="title">2018</figcaption>
+                        <div class="logo">
+                            <img src="Assets/img/logo-impulso.png" alt="logo da Impulso">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -first">
+                        <figcaption class="title">2019</figcaption>
+                        <div class="logo">
+                            <img src="Assets/img/logo-collabcode.png" alt="logo da CollabCode">
+                        </div>
+                    </figure>
+                </div>
+            </div>
+
+            <button class="button-arrow -right"><span class="content">direita</span></button>
+        </section>
 
         <p class="main-biography">
             Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas 
@@ -158,5 +214,9 @@
              Airsoft ou trocando ideias com amigos.
         </p>
     </section>
+
+    <script src="JS/components/main-carrossel.js">
+
+    </script>
 </body>
 </html>
