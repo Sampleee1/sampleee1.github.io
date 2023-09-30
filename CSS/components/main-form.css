@@ -1,0 +1,26 @@
+.main-form {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.elements {
+    margin: 0px;
+}
+
+.main-form .form-elements .text-elements {
+    width: 100%;
+    height: 30px;
+    border: 5px solid black;
+}
+
+.main-form .form-elements .text-elements.-msg {
+    height: 318px;
+}
+
+.main-form .main-button {
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    margin-top: 35px;
+    text-align: center;
+}

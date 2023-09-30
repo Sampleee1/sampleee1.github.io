@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="CSS/components/node-card.css">
     <link rel="stylesheet" href="CSS/components/main-carrossel.css">
     <link rel="stylesheet" href="CSS/components/main-footer.css">
+    <link rel="stylesheet" href="CSS/components/main-form.css">
 </head>
 <body>   
     <header class="main-header">
@@ -216,6 +217,27 @@
         </p>
     </section>
 
+    <section class="main-section -bgGray">
+
+        <h2 class="main-title -second">Contatos</h2>
+          
+        <form action="" method="get" class="main-form">
+            <div class="form-elements">
+                <label class="elements" for="nome">Nome:</label><br>
+                <input class="text-elements" type="text" name="nome" id="nome" required>
+            </div>
+            <div class="form-elements">
+                <label class="elements" for="email">Email:</label><br>
+                <input class="text-elements" type="email" name="email" id="email" required>
+            </div>
+            <div class="form-elements">
+                <label class="elements" for="msg">Mensagem:</label><br>
+                <textarea class="text-elements -msg" name="msg" id="msg" required></textarea>
+            </div>
+            <input class="main-button -submit" type="submit" value="Enviar">
+        </form>
+    </section>
+
     <footer class="main-footer">
         <a class="actions" href="https://twitter.com/LuiszFred" target="_blank">
             <img src="Assets/img/icon-twitter.png" alt="Icon twitter">
@@ -228,8 +250,6 @@
         </a>
     </footer>
 
-    <script src="JS/components/main-carrossel.js">
-
-    </script>
+    <script src="JS/components/main-carrossel.js"></script>
 </body>
 </html>
